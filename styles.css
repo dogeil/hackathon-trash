@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.main-container {
+    position: relative;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    height: 60vh;
+    top: -100px;
+    position: absolute;
+}
+
+.login-text {
+    top: 280px;
+    position: absolute;
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Istok Web';
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.input-field {
+    width: 300px;
+    height: 4.5vh;
+    top: 340px; /* Adjusted for the second input field */
+    position: absolute;
+    border-radius: 15px;
+    border: 1px rgba(0, 0, 0, 0.52) solid;
+    padding-left: 10px;
+}
+
+.button-login {
+    width: 194px;
+    height: 35px;
+    top: 635px;
+    position: absolute;
+    background: #36593B;
+    border-radius: 12px;
+}
+.button-login button {
+    background: #36593B;
+    border-radius: 12px;
+}
+
+.login-button-text {
+    top: 638px;
+    position: absolute;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Istok Web';
+    font-weight: 700;
+    text-wrap: nowrap;
+}
+
+.login-icons{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    position: absolute;
+    top: 720px;
+    margin-right: 5vh;
+}
+.login-icons li{
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+.login-icons li img{
+    width: 5vh;
+    height: 5vh;
+    position: absolute;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.password-text {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.68);
+    font-size: 2rem;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.forgot-password-text {
+    top: 588px;
+    position: absolute;
+    color: #36593B;
+    font-size: 1rem;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.or-login-with-text {
+    top: 702px;
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.signup-text {
+    top: 813px;
+    position: absolute;
+    font-size: 12px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.signup-text span:first-child {
+    color: black;
+}
+
+.signup-text span:last-child {
+    color: #36593B;
+}

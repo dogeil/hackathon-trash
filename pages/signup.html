@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js"></script>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <div class="main-container">
+        <img class="logo" src="/images/logo.png"/>
+        <div class="login-text">Sign Up</div>
+        <form id="loginForm" style="position: relative; flex-direction: column; display: flex; align-items: center">
+            <input type="email" class="input-field" placeholder="Email">
+            <input type="text" class="input-field" placeholder="Nome" style="top: 400px;">
+            <input type="number" class="input-field" placeholder="Telefone" style="top: 460px;">
+            <input type="password" class="input-field" placeholder="Senha" style="top: 520px;">
+            <div class="button-login"><button style="width: 100%; height: 100%;"></button></div>
+            <div class="login-button-text">Criar Conta</div>
+        </form>
+        <ul class="login-icons">
+            <li><img class="facebook-icon" src="/images/icons/google.png"/></li>
+            <li><img class="x-icon" src="/images/icons/x.png"/></li>
+            <li><img class="instagram-icon" src="/images/icons/instagram.png"/></li>
+        </ul>
+        <div class="forgot-password-text">Esqueci minha senha</div>
+        <div class="or-login-with-text">Ou entre com</div>
+        <div class="signup-text"><span>Já tem uma conta? </span><a href="/login.html"><span>Login</span></a></div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
